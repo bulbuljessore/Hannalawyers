@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;1,6..72,200;1,6..72,300&family=Archivo:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+html { scroll-behavior:smooth; }
+body { margin:0; background:#EDEAE3; -webkit-font-smoothing:antialiased; }
+a { color:#12141A; text-decoration:none; }
+a:hover { color:#2F3A5F; }
+input::placeholder, textarea::placeholder { color:#8D93A6; }
+
+</style>
+</helmet>
+
+<div style="background:#EDEAE3; color:#12141A; font-family:Archivo,system-ui,sans-serif; font-size:clamp(15.5px,1.02vw,17px); line-height:1.6; overflow-x:clip;">
+
+<div data-progress-track="" style="position:fixed; top:0; left:0; right:0; height:2px; z-index:61; background:transparent; pointer-events:none;">
+<div data-progress="" style="height:100%; width:0%; background:#2F3A5F; transition:width 120ms linear;"></div>
+</div>
+
+<header data-header="" style="position:sticky; top:0; z-index:50; background:rgba(237,234,227,0.92); backdrop-filter:blur(16px); border-bottom:1px solid #CFCABF;">
+<div data-header-inner="" style="max-width:1600px; margin:0 auto; min-height:74px; padding:14px clamp(18px,3.4vw,52px); display:flex; flex-wrap:wrap; gap:10px clamp(20px,3vw,44px); align-items:center; justify-content:space-between;">
+<a href="#top" style="display:flex; align-items:center; gap:14px; line-height:1;">
+<img src="./uploads/hanna-lawyers-1171bea5-1257w.webp" alt="Hanna Lawyers" style="display:block; height:clamp(24px,2.3vw,32px); width:auto;" />
+<span style="font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#5F5B54; border-left:1px solid #CFCABF; padding-left:14px;">Wollongong</span>
+</a>
+<nav style="display:flex; flex-wrap:wrap; align-items:center; gap:10px clamp(14px,1.7vw,26px); font-size:13.5px; letter-spacing:0.02em;">
+<a href="#practice" style="white-space:nowrap; padding:6px 0;">Practice</a>
+<a href="#firm" style="white-space:nowrap; padding:6px 0;">The firm</a>
+<a href="#people" style="white-space:nowrap; padding:6px 0;">Solicitors</a>
+<a href="#answers" style="white-space:nowrap; padding:6px 0;">Questions</a>
+<a href="tel:0242280084" style="white-space:nowrap; background:#12141A; color:#EDEAE3; padding:11px 20px; transition:background 240ms ease;" style-hover="background:#2F3A5F;">02 4228 0084</a>
+</nav>
+</div>
+</header>
+
+<section id="top" style="display:flex; flex-direction:column; justify-content:space-between; padding:clamp(32px,5vw,72px) clamp(18px,3.4vw,52px) clamp(24px,3vw,40px); max-width:1600px; margin:0 auto; box-sizing:border-box;">
+<div style="display:flex; flex-wrap:wrap; gap:12px 40px; justify-content:space-between; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; border-bottom:1px solid #CFCABF; padding-bottom:16px;">
+<span data-reveal="">Wollongong, New South Wales</span>
+<span data-reveal="">Family, property, compensation, criminal, estates</span>
+<span data-reveal="">Open 9 to 5, closed 1 to 2</span>
+</div>
+
+<h1 style="font-family:Newsreader,Georgia,serif; font-weight:200; font-size:clamp(40px,7vw,104px); line-height:0.95; letter-spacing:-0.02em; margin:clamp(20px,2.6vw,36px) 0 0; max-width:15ch;">
+<span style="display:block;">You deal with</span>
+<span style="display:block;">the solicitor</span>
+<span style="display:block; font-style:italic; color:#2F3A5F;">who runs it.</span>
+</h1>
+
+<div style="display:flex; flex-wrap:wrap; gap:24px 48px; align-items:flex-end; justify-content:space-between; margin-top:clamp(24px,3vw,44px); border-top:1px solid #CFCABF; padding-top:clamp(18px,2vw,26px);">
+<p data-reveal="" style="margin:0; max-width:46ch; font-size:clamp(16px,1.25vw,19px); color:#33353D; flex:1 1 min(100%,320px);">A small firm on Market Street. One solicitor takes your matter and stays on it, from the first phone call through to settlement or hearing.</p>
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:10px;">
+<a href="tel:0242280084" style="background:#12141A; color:#EDEAE3; padding:17px 28px; font-size:15px; transition:background 240ms ease, transform 240ms cubic-bezier(0.22,1,0.36,1);" style-hover="background:#2F3A5F; transform:translateY(-2px);">Call 02 4228 0084</a>
+<a href="#contact" style="border:1px solid #12141A; padding:17px 28px; font-size:15px; transition:background 240ms ease, color 240ms ease;" style-hover="background:#12141A; color:#EDEAE3;">Send an enquiry</a>
+</div>
+<div style="font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; display:flex; align-items:center; gap:9px;"><span>↓</span>Scroll</div>
+</div>
+<div data-reveal="" style="height:clamp(200px,30vh,400px); margin-top:clamp(18px,2.2vw,32px); min-width:0;"><img src="./img/office-interior.png" alt="The office at Market Street, Wollongong" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+</section>
+
+<section id="firm" style="background:#12141A; color:#EDEAE3; padding:clamp(72px,10vw,160px) 0;">
+<div style="max-width:1600px; margin:0 auto; padding:0 clamp(18px,3.4vw,52px);">
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px);">
+<div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#8D93A6; padding-top:12px;">01</div>
+<div style="flex:1 1 min(100%,420px); min-width:0;">
+<h2 data-reveal="" style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(30px,5.4vw,80px); line-height:1.06; letter-spacing:-0.015em; margin:0; max-width:19ch;">Most firms hand your file down the corridor. We do not have a corridor.</h2>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr)); gap:clamp(24px,3vw,56px); margin-top:clamp(36px,4.6vw,72px);">
+<p data-reveal="" style="margin:0; color:#B9B6AE; font-size:clamp(16px,1.15vw,18px); min-width:0;">Nixon Hanna was admitted to the Supreme Court of New South Wales in December 2002 and later to the High Court roll. He read commerce and law at the University of Wollongong and worked at the Crown Solicitor's Office before starting here.</p>
+<p data-reveal="" style="margin:0; color:#B9B6AE; font-size:clamp(16px,1.15vw,18px); min-width:0;">Deana Hanna has been with the firm since 2009 and practises mainly in compensation and family law. Between the four solicitors there is more than fifty years of combined experience, and all of it stays in Wollongong.</p>
+</div>
+</div>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr)); gap:1px; background:#33363F; margin-top:clamp(48px,6vw,96px); border-top:1px solid #33363F; border-bottom:1px solid #33363F;">
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px clamp(24px,3vw,40px) 0; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">2002</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Principal admitted, Supreme Court of NSW</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">50+</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Years of combined experience</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">Fixed</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Fees quoted for property work</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 0 clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">4</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Solicitors, one of whom is yours</div></div>
+</div>
+</div>
+</section>
+
+<section id="practice" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); margin-bottom:clamp(32px,4vw,64px);">
+<div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">02</div>
+<div style="flex:1 1 min(100%,380px); min-width:0; display:flex; flex-wrap:wrap; gap:20px 56px; align-items:flex-end; justify-content:space-between;">
+<h2 data-reveal="" style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(30px,5vw,72px); line-height:1.05; letter-spacing:-0.015em; margin:0; max-width:14ch;">What we practise.</h2>
+<p data-reveal="" style="margin:0; max-width:32ch; color:#4A4C53; flex:0 1 320px;">Six areas. Open the one closest to your situation, or ring us and describe it in your own words.</p>
+</div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,64px); align-items:flex-start;">
+<div data-practice="" style="flex:1.6 1 min(100%,420px); min-width:0; border-top:1px solid #12141A;">
+
+<div data-row="" style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">01</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Compensation</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">An injury at work, on the road, or in a public place. We deal with the insurer, the medical evidence and the claim itself. Most of this work runs on a no win, no fee basis.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Workers compensation<br />Motor vehicle accidents<br />Injuries in public places<br />Total and permanent disability</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-row="" style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">02</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Property and conveyancing</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">Bring us the contract before you sign it. We read it properly, tell you what it means, and quote a fixed fee so the cost is settled at the start.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Buying and selling<br />Leases<br />Sale and purchase of businesses<br />First home buyers and grants</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-row="" style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">03</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Family</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">Separation is difficult enough without the law making it worse. We aim to settle matters early where that is possible, and we will tell you plainly when it is not.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Divorce<br />Property settlement<br />Parenting arrangements<br />Financial agreements</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-row="" style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">04</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Criminal and traffic</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">Call before the first mention date if you can. We appear from bail applications through to hearing, and we will be straight with you about the likely outcome.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Drink driving and traffic<br />Apprehended violence orders<br />Drug offences<br />Violent offences</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-row="" style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">05</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Wills and estates</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">A will that is drafted properly saves your family an argument later. We also act for executors, and for people who have been left out of an estate.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Wills and testamentary trusts<br />Powers of attorney<br />Probate and administration<br />Family provision claims</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-row="" style="border-bottom:1px solid #12141A;">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<span style="font-size:12px; color:#5F5B54;">06</span>
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Disputes and litigation</span>
+<span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
+<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<span></span>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
+<p style="margin:0; color:#4A4C53; max-width:44ch;">Court is expensive and slow. We try negotiation and mediation first, and only run a matter to hearing when that is genuinely the better option.</p>
+<div style="font-size:14.5px; color:#5F5B54; line-height:2;">Debt recovery<br />Neighbourhood disputes<br />Consumer claims<br />Commercial disagreements</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div style="flex:1 1 min(100%,280px); min-width:0; position:sticky; top:104px;">
+<div style="position:relative; height:clamp(300px,42vw,560px); overflow:hidden;">
+<div data-shot="0" style="position:absolute; inset:0; opacity:1; transition:opacity 560ms ease;"><img src="./img/signing-documents.png" alt="Compensation claim documents being signed" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div data-shot="1" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/house-exterior.png" alt="A house, for property and conveyancing matters" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div data-shot="2" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/consultation.png" alt="A solicitor meeting a client" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div data-shot="3" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/scales-gavel.png" alt="Scales and gavel on a desk" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div data-shot="4" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/pen-folio.png" alt="A pen resting on a folio, for wills and estates" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div data-shot="5" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/law-library-desk.png" alt="Law reports on a desk beside a bookshelf" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<div data-reveal="" style="border-top:1px solid #12141A; padding-top:clamp(26px,3.2vw,44px);">
+<blockquote style="margin:0; font-family:Newsreader,serif; font-weight:200; font-style:italic; font-size:clamp(28px,5.6vw,88px); line-height:1.1; letter-spacing:-0.018em; max-width:20ch;">"Professional and personal in their approach. Reasonably priced and easily accessible."</blockquote>
+<div style="display:flex; flex-wrap:wrap; gap:12px 40px; justify-content:space-between; margin-top:clamp(24px,3vw,44px); font-size:12.5px; letter-spacing:0.1em; text-transform:uppercase; color:#5F5B54;">
+<span>A client, on the principal solicitor and the team</span>
+<span>Confirm the wording and date before publishing</span>
+</div>
+</div>
+</section>
+
+<section id="people" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); margin-bottom:clamp(28px,3.4vw,52px);">
+<div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">03</div>
+<h2 data-reveal="" style="flex:1 1 min(100%,380px); font-family:Newsreader,serif; font-weight:200; font-size:clamp(30px,5vw,72px); line-height:1.05; letter-spacing:-0.015em; margin:0; max-width:16ch;">Four solicitors. You will know which one is yours.</h2>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr)); gap:clamp(18px,2.2vw,30px); border-top:1px solid #12141A; padding-top:clamp(24px,3vw,40px);">
+<div data-reveal="" style="min-width:0;">
+<div style="height:clamp(280px,27vw,380px); overflow:hidden; min-width:0;"><img src="./img/portrait-nixon.png" alt="Nixon Hanna" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:16px 0 4px;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(22px,2.1vw,30px); line-height:1.1;">Nixon Hanna</span>
+<span style="font-size:12px; color:#5F5B54;">01</span>
+</div>
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; margin-bottom:10px;">Principal</div>
+<p style="margin:0; font-size:15px; color:#4A4C53;">Property, family, succession, criminal and civil litigation. Admitted 2002, and on the High Court roll.</p>
+</div>
+<div data-reveal="" style="min-width:0;">
+<div style="height:clamp(280px,27vw,380px); overflow:hidden; min-width:0;"><img src="./img/portrait-deana.png" alt="Deana Hanna" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:16px 0 4px;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(22px,2.1vw,30px); line-height:1.1;">Deana Hanna</span>
+<span style="font-size:12px; color:#5F5B54;">02</span>
+</div>
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; margin-bottom:10px;">Partner</div>
+<p style="margin:0; font-size:15px; color:#4A4C53;">Mainly compensation and family law. Admitted 2004, with the firm since 2009.</p>
+</div>
+<div data-reveal="" style="min-width:0;">
+<div style="height:clamp(280px,27vw,380px); overflow:hidden; min-width:0;"><img src="./img/portrait-jordan.png" alt="Jordan Vincent" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:16px 0 4px;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(22px,2.1vw,30px); line-height:1.1;">Jordan Vincent</span>
+<span style="font-size:12px; color:#5F5B54;">03</span>
+</div>
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; margin-bottom:10px;">Senior associate</div>
+<p style="margin:0; font-size:15px; color:#4A4C53;">Add practice areas and admission year here.</p>
+</div>
+<div data-reveal="" style="min-width:0;">
+<div style="height:clamp(280px,27vw,380px); overflow:hidden; min-width:0;"><img src="./img/portrait-nathan.png" alt="Nathan Hawkes" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
+<div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:16px 0 4px;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(22px,2.1vw,30px); line-height:1.1;">Nathan Hawkes</span>
+<span style="font-size:12px; color:#5F5B54;">04</span>
+</div>
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; margin-bottom:10px;">Solicitor</div>
+<p style="margin:0; font-size:15px; color:#4A4C53;">Add practice areas and admission year here.</p>
+</div>
+</div>
+</section>
+
+<section id="answers" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); align-items:flex-start;">
+<div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">04</div>
+<div data-reveal="" style="flex:0.8 1 min(100%,280px); min-width:0; position:sticky; top:110px;">
+<h2 style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(28px,4.2vw,58px); line-height:1.06; letter-spacing:-0.015em; margin:0 0 16px; max-width:14ch;">Questions we get asked.</h2>
+<p style="margin:0; color:#4A4C53; max-width:30ch;">If yours is not here, ring us. Five minutes on the phone usually beats an hour of reading.</p>
+</div>
+<div data-faq="" data-reveal="" style="flex:1.5 1 min(100%,340px); min-width:0; border-top:1px solid #12141A;">
+
+<div style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">Do I need a lawyer or a conveyancer?</span>
+<span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-faq-body="" style="max-height:0; overflow:hidden; transition:max-height 440ms cubic-bezier(0.22,1,0.36,1);"><p style="margin:0 0 24px; color:#4A4C53; max-width:62ch;">A conveyancer can handle a standard transaction: the documents, the bank, settlement. A property lawyer does all of that and can also advise when something goes wrong, such as a complicated contract, a dispute, or an unusual ownership arrangement.</p></div>
+</div>
+
+<div style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">It is my first house. Where do I start?</span>
+<span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-faq-body="" style="max-height:0; overflow:hidden; transition:max-height 440ms cubic-bezier(0.22,1,0.36,1);"><p style="margin:0 0 24px; color:#4A4C53; max-width:62ch;">Talk to us before you sign the contract of sale, because once you sign it you are bound by it. When we go through the contract we also cover the grants you may be eligible for, pest and building reports, and what happens at each step.</p></div>
+</div>
+
+<div style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">What does no win, no fee actually mean?</span>
+<span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-faq-body="" style="max-height:0; overflow:hidden; transition:max-height 440ms cubic-bezier(0.22,1,0.36,1);"><p style="margin:0 0 24px; color:#4A4C53; max-width:62ch;">In most compensation cases you do not pay our legal fees unless the claim succeeds. Some costs sit outside that, so we put in writing what is covered and what is not before you sign a costs agreement.</p></div>
+</div>
+
+<div style="border-bottom:1px solid #CFCABF;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">Can a dispute be sorted without court?</span>
+<span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-faq-body="" style="max-height:0; overflow:hidden; transition:max-height 440ms cubic-bezier(0.22,1,0.36,1);"><p style="margin:0 0 24px; color:#4A4C53; max-width:62ch;">Often, yes. We try negotiation and mediation first. Court costs money and takes time, and most people would rather avoid both when the outcome is likely to be similar.</p></div>
+</div>
+
+<div style="border-bottom:1px solid #12141A;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">How do I speak to a lawyer here?</span>
+<span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
+</button>
+<div data-faq-body="" style="max-height:0; overflow:hidden; transition:max-height 440ms cubic-bezier(0.22,1,0.36,1);"><p style="margin:0 0 24px; color:#4A4C53; max-width:62ch;">Come into the office on Market Street, ring us, or book a Zoom or Teams meeting. The office is open 9am to 5pm and closed between 1pm and 2pm.</p></div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="contact" style="background:#12141A; color:#EDEAE3; margin-top:clamp(72px,10vw,150px); padding:clamp(64px,9vw,140px) 0;">
+<div style="max-width:1600px; margin:0 auto; padding:0 clamp(18px,3.4vw,52px);">
+<div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px);">
+<div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#8D93A6; padding-top:12px;">05</div>
+<div style="flex:1 1 min(100%,420px); min-width:0;">
+<h2 data-reveal="" style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(32px,6vw,96px); line-height:1.02; letter-spacing:-0.02em; margin:0 0 clamp(20px,2.4vw,32px); max-width:13ch;">Tell us what happened.</h2>
+<p data-reveal="" style="margin:0 0 clamp(32px,4vw,56px); color:#B9B6AE; max-width:46ch; font-size:clamp(16px,1.2vw,19px);">Leave your details and someone will call you back the same business day.</p>
+
+<div style="display:flex; flex-wrap:wrap; gap:clamp(32px,4vw,72px);">
+<div data-reveal="" style="flex:1.2 1 min(100%,320px); min-width:0; display:grid; gap:6px;">
+<input placeholder="Your name" style="background:transparent; border:0; border-bottom:1px solid #33363F; color:#EDEAE3; font-family:Archivo,sans-serif; font-size:clamp(17px,1.5vw,22px); padding:18px 2px; outline:none; min-width:0; transition:border-color 240ms ease;" style-focus="border-bottom-color:#EDEAE3;" />
+<input placeholder="Phone" style="background:transparent; border:0; border-bottom:1px solid #33363F; color:#EDEAE3; font-family:Archivo,sans-serif; font-size:clamp(17px,1.5vw,22px); padding:18px 2px; outline:none; min-width:0; transition:border-color 240ms ease;" style-focus="border-bottom-color:#EDEAE3;" />
+<input placeholder="Email" style="background:transparent; border:0; border-bottom:1px solid #33363F; color:#EDEAE3; font-family:Archivo,sans-serif; font-size:clamp(17px,1.5vw,22px); padding:18px 2px; outline:none; min-width:0; transition:border-color 240ms ease;" style-focus="border-bottom-color:#EDEAE3;" />
+<input placeholder="What is it about?" style="background:transparent; border:0; border-bottom:1px solid #33363F; color:#EDEAE3; font-family:Archivo,sans-serif; font-size:clamp(17px,1.5vw,22px); padding:18px 2px; outline:none; min-width:0; transition:border-color 240ms ease;" style-focus="border-bottom-color:#EDEAE3;" />
+<textarea placeholder="Anything you want us to know before we call" rows="2" style="background:transparent; border:0; border-bottom:1px solid #33363F; color:#EDEAE3; font-family:Archivo,sans-serif; font-size:clamp(17px,1.5vw,22px); padding:18px 2px; outline:none; resize:none; min-width:0; transition:border-color 240ms ease;"></textarea>
+<button style="margin-top:22px; justify-self:start; background:#EDEAE3; color:#12141A; border:0; padding:18px 34px; font-family:Archivo,sans-serif; font-size:15px; cursor:pointer; transition:background 240ms ease, color 240ms ease, transform 240ms cubic-bezier(0.22,1,0.36,1);" style-hover="background:#2F3A5F; color:#EDEAE3; transform:translateY(-2px);">Send it through</button>
+<div style="font-size:13px; color:#8D93A6; margin-top:14px;">Sending this form does not make us your lawyers. We confirm that in writing if you decide to go ahead.</div>
+</div>
+<div data-reveal="" style="flex:0.8 1 min(100%,240px); min-width:0; display:grid; gap:18px; align-content:start;">
+<a href="https://maps.google.com/?q=26-28+Market+Street+Wollongong+NSW+2500" target="_blank" rel="noopener" style="display:block; height:clamp(200px,22vw,260px); min-width:0; overflow:hidden;"><img src="./img/map-market-street.png" alt="Map showing 26–28 Market Street, Wollongong" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></a>
+<div style="display:grid; grid-template-columns:76px minmax(0,1fr); gap:14px; border-top:1px solid #33363F; padding-top:13px; overflow-wrap:anywhere;"><span style="font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase; color:#8D93A6;">Phone</span><a href="tel:0242280084" style="color:#EDEAE3;">02 4228 0084</a></div>
+<div style="display:grid; grid-template-columns:76px minmax(0,1fr); gap:14px; border-top:1px solid #33363F; padding-top:13px; overflow-wrap:anywhere;"><span style="font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase; color:#8D93A6;">Email</span><a href="mailto:office@hannalawyers.com.au" style="color:#EDEAE3;">office@hannalawyers.com.au</a></div>
+<div style="display:grid; grid-template-columns:76px minmax(0,1fr); gap:14px; border-top:1px solid #33363F; padding-top:13px; overflow-wrap:anywhere;"><span style="font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase; color:#8D93A6;">Office</span><span style="color:#B9B6AE;">Level 1, Suite 43<br />26–28 Market Street<br />Wollongong NSW 2500</span></div>
+<div style="display:grid; grid-template-columns:76px minmax(0,1fr); gap:14px; border-top:1px solid #33363F; padding-top:13px; overflow-wrap:anywhere;"><span style="font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase; color:#8D93A6;">Hours</span><span style="color:#B9B6AE;">Monday to Friday, 9am to 5pm<br /><span style="color:#8D93A6;">Closed 1pm to 2pm</span></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="background:#12141A; color:#B9B6AE; border-top:1px solid #33363F; padding:clamp(40px,5vw,64px) 0 32px;">
+<div style="max-width:1600px; margin:0 auto; padding:0 clamp(18px,3.4vw,52px);">
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(24px,3.4vw,56px); padding-bottom:clamp(26px,3vw,40px); border-bottom:1px solid #33363F;">
+<div style="min-width:0;">
+<img src="./uploads/hanna-lawyers-1171bea5-1257w.webp" alt="Hanna Lawyers" style="display:block; height:clamp(26px,2.4vw,34px); width:auto; filter:brightness(0) invert(1); opacity:0.94;" />
+<p style="margin:12px 0 0; max-width:42ch; font-size:15px;">A small Wollongong firm where you deal directly with the solicitor handling your matter.</p>
+<div style="font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase; color:#8D93A6; margin-top:20px;">Member, Law Society of New South Wales</div>
+</div>
+<div style="min-width:0;">
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#8D93A6; margin-bottom:14px;">Practice</div>
+<div style="display:grid; gap:8px; font-size:15px;">
+<a href="#practice" style="color:#B9B6AE;">Compensation</a>
+<a href="#practice" style="color:#B9B6AE;">Property and conveyancing</a>
+<a href="#practice" style="color:#B9B6AE;">Family</a>
+<a href="#practice" style="color:#B9B6AE;">Criminal and traffic</a>
+<a href="#practice" style="color:#B9B6AE;">Wills and estates</a>
+<a href="#practice" style="color:#B9B6AE;">Disputes and litigation</a>
+</div>
+</div>
+<div style="min-width:0;">
+<div style="font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:#8D93A6; margin-bottom:14px;">Where we work</div>
+<div style="display:grid; gap:8px; font-size:15px;">
+<span>Illawarra</span><span>South Coast</span><span>Southern Highlands</span><span>Sydney</span>
+</div>
+</div>
+</div>
+<div style="display:flex; flex-wrap:wrap; gap:8px 28px; justify-content:space-between; padding-top:20px; font-size:12px; color:#8D93A6;">
+<span>ABN 33 152 402 143</span>
+<span>Liability limited by a scheme approved under Professional Standards Legislation</span>
+<span>Copyright 2026</span>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this.cleanup = [];
+    this.wire();
+  }
+
+  componentWillUnmount() {
+    (this.cleanup || []).forEach(fn => fn());
+  }
+
+  wire() {
+    // Entrances are declarative CSS animations in the helmet, so they survive
+    // re-render and the page is readable even if this script never runs.
+
+    // Header background + reading progress
+    const header = document.querySelector('[data-header]');
+    const bar = document.querySelector('[data-progress]');
+    const onScroll = () => {
+      const y = window.scrollY || 0;
+      const doc = document.documentElement;
+      const max = (doc.scrollHeight - window.innerHeight) || 1;
+      if (bar) bar.style.width = Math.min(100, Math.max(0, (y / max) * 100)).toFixed(2) + '%';
+      if (header) header.style.boxShadow = y > 24 ? '0 1px 0 rgba(18,20,26,0.06)' : 'none';
+    };
+    let ticking = false;
+    const handler = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => { onScroll(); ticking = false; });
+    };
+    window.addEventListener('scroll', handler, { passive: true });
+    onScroll();
+    this.cleanup.push(() => window.removeEventListener('scroll', handler));
+
+    // Expanding practice rows
+    const rows = Array.from(document.querySelectorAll('[data-row]'));
+    // Queried per call: the preview column streams in after the rows
+    const showShot = i => document.querySelectorAll('[data-shot]').forEach(s => {
+      s.style.opacity = Number(s.getAttribute('data-shot')) === i ? '1' : '0';
+    });
+    const setRow = (row, open) => {
+      const head = row.querySelector('[data-row-head]');
+      const body = row.querySelector('[data-row-body]');
+      const mark = row.querySelector('[data-row-mark]');
+      if (body) body.style.maxHeight = open ? body.scrollHeight + 'px' : '0px';
+      if (mark) mark.style.transform = open ? 'rotate(135deg)' : 'rotate(0deg)';
+      if (head) {
+        head.style.paddingLeft = open ? '14px' : '0px';
+        head.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
+    };
+    rows.forEach((row, i) => {
+      const head = row.querySelector('[data-row-head]');
+      if (!head) return;
+      const open = () => {
+        rows.forEach(other => setRow(other, false));
+        setRow(row, true);
+        showShot(i);
+        this.openRow = row;
+      };
+      const toggle = () => {
+        const body = row.querySelector('[data-row-body]');
+        if (body && body.style.maxHeight && body.style.maxHeight !== '0px') return;
+        open();
+      };
+      head.addEventListener('click', toggle);
+      head.addEventListener('mouseenter', open);
+      head.addEventListener('focus', open);
+      this.cleanup.push(() => {
+        head.removeEventListener('click', toggle);
+        head.removeEventListener('mouseenter', open);
+        head.removeEventListener('focus', open);
+      });
+    });
+    if (rows[0]) { setRow(rows[0], true); this.openRow = rows[0]; }
+
+    // Keep the open row's height correct when the viewport changes
+    const remeasure = () => {
+      if (this.openRow) setRow(this.openRow, true);
+      const openFaq = heads.find(x => {
+        const b = x.nextElementSibling;
+        return b && b.style.maxHeight && b.style.maxHeight !== '0px';
+      });
+      if (openFaq) setFaq(openFaq, true);
+    };
+    let rTick;
+    const onResize = () => { clearTimeout(rTick); rTick = setTimeout(remeasure, 120); };
+    window.addEventListener('resize', onResize);
+    this.cleanup.push(() => { window.removeEventListener('resize', onResize); clearTimeout(rTick); });
+
+    // Questions
+    const heads = Array.from(document.querySelectorAll('[data-faq-head]'));
+    const setFaq = (head, open) => {
+      const body = head.nextElementSibling;
+      const mark = head.querySelector('[data-faq-mark]');
+      if (body) body.style.maxHeight = open ? body.scrollHeight + 'px' : '0px';
+      if (mark) mark.style.transform = open ? 'rotate(135deg)' : 'rotate(0deg)';
+      head.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    heads.forEach(head => {
+      const toggle = () => {
+        const body = head.nextElementSibling;
+        const isOpen = body && body.style.maxHeight && body.style.maxHeight !== '0px';
+        heads.forEach(other => setFaq(other, false));
+        if (!isOpen) setFaq(head, true);
+      };
+      head.addEventListener('click', toggle);
+      this.cleanup.push(() => head.removeEventListener('click', toggle));
+    });
+    if (heads[0]) setFaq(heads[0], true);
+  }
+
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
