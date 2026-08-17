@@ -27,23 +27,43 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 <div data-progress="" style="height:100%; width:0%; background:#2F3A5F; transition:width 120ms linear;"></div>
 </div>
 
-<header data-header="" style="position:sticky; top:0; z-index:50; background:rgba(237,234,227,0.92); backdrop-filter:blur(16px); border-bottom:1px solid #CFCABF;">
-<div data-header-inner="" style="max-width:1600px; margin:0 auto; min-height:74px; padding:14px clamp(18px,3.4vw,52px); display:flex; flex-wrap:wrap; gap:10px clamp(20px,3vw,44px); align-items:center; justify-content:space-between;">
-<a href="#top" style="display:flex; align-items:center; gap:14px; line-height:1;">
-<img src="./uploads/hanna-lawyers-1171bea5-1257w.webp" alt="Hanna Lawyers" style="display:block; height:clamp(24px,2.3vw,32px); width:auto;" />
-<span style="font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#5F5B54; border-left:1px solid #CFCABF; padding-left:14px;">Wollongong</span>
+<header data-header="" style="position:sticky; top:0; z-index:50; background:rgba(237,234,227,0.94); backdrop-filter:blur(16px); border-bottom:1px solid #CFCABF;">
+<div data-header-inner="" style="max-width:1600px; margin:0 auto; min-height:64px; padding:12px clamp(16px,3.4vw,52px); display:flex; gap:12px clamp(20px,3vw,44px); align-items:center; justify-content:space-between;">
+<a href="#top" style="display:flex; align-items:center; gap:12px; line-height:1; min-width:0;">
+<img src="./uploads/hanna-lawyers-1171bea5-1257w.webp" alt="Hanna Lawyers" style="display:block; height:clamp(21px,2.3vw,32px); width:auto; max-width:min(52vw,260px); object-fit:contain;" />
+<span data-locale-tag="" style="font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#5F5B54; border-left:1px solid #CFCABF; padding-left:12px; white-space:nowrap;">Wollongong</span>
 </a>
-<nav style="display:flex; flex-wrap:wrap; align-items:center; gap:10px clamp(14px,1.7vw,26px); font-size:13.5px; letter-spacing:0.02em;">
+<nav data-nav-desktop="" style="display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:center; gap:8px clamp(13px,1.7vw,26px); font-size:13.5px; letter-spacing:0.02em;">
 <a href="#practice" style="white-space:nowrap; padding:6px 0;">Practice</a>
 <a href="#firm" style="white-space:nowrap; padding:6px 0;">The firm</a>
 <a href="#people" style="white-space:nowrap; padding:6px 0;">Solicitors</a>
 <a href="#answers" style="white-space:nowrap; padding:6px 0;">Questions</a>
 <a href="tel:0242280084" style="white-space:nowrap; background:#12141A; color:#EDEAE3; padding:11px 20px; transition:background 240ms ease;" style-hover="background:#2F3A5F;">02 4228 0084</a>
 </nav>
+<button type="button" data-nav-toggle="" aria-expanded="false" aria-label="Open menu" style="display:none; align-items:center; gap:10px; min-height:44px; padding:0 4px 0 12px; background:none; border:0; color:#12141A; font:inherit; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; cursor:pointer;">
+<span data-nav-toggle-label="">Menu</span>
+<span data-nav-toggle-bars="" style="display:grid; gap:5px; width:22px;">
+<span style="display:block; height:1px; background:#12141A;"></span>
+<span style="display:block; height:1px; background:#12141A;"></span>
+</span>
+</button>
+</div>
+<div data-nav-panel="" style="display:none; border-top:1px solid #CFCABF; padding:4px clamp(16px,3.4vw,52px) 18px;">
+<div style="display:grid;">
+<a href="#practice" data-nav-link="" style="display:flex; align-items:center; min-height:52px; border-bottom:1px solid #DDD8CE; font-size:17px;">Practice</a>
+<a href="#firm" data-nav-link="" style="display:flex; align-items:center; min-height:52px; border-bottom:1px solid #DDD8CE; font-size:17px;">The firm</a>
+<a href="#people" data-nav-link="" style="display:flex; align-items:center; min-height:52px; border-bottom:1px solid #DDD8CE; font-size:17px;">Solicitors</a>
+<a href="#answers" data-nav-link="" style="display:flex; align-items:center; min-height:52px; border-bottom:1px solid #DDD8CE; font-size:17px;">Questions</a>
+<a href="#contact" data-nav-link="" style="display:flex; align-items:center; min-height:52px; border-bottom:1px solid #DDD8CE; font-size:17px;">Contact</a>
+</div>
+<div style="display:grid; gap:10px; margin-top:16px;">
+<a href="tel:0242280084" data-nav-link="" style="display:flex; align-items:center; justify-content:center; min-height:52px; background:#12141A; color:#EDEAE3; font-size:15px;">Call 02 4228 0084</a>
+<a href="mailto:office@hannalawyers.com.au" data-nav-link="" style="display:flex; align-items:center; justify-content:center; min-height:52px; border:1px solid #12141A; font-size:15px;">Email the office</a>
+</div>
 </div>
 </header>
 
-<section id="top" style="display:flex; flex-direction:column; justify-content:space-between; padding:clamp(32px,5vw,72px) clamp(18px,3.4vw,52px) clamp(24px,3vw,40px); max-width:1600px; margin:0 auto; box-sizing:border-box;">
+<section id="top" style="scroll-margin-top:80px; display:flex; flex-direction:column; justify-content:space-between; padding:clamp(32px,5vw,72px) clamp(18px,3.4vw,52px) clamp(24px,3vw,40px); max-width:1600px; margin:0 auto; box-sizing:border-box;">
 <div style="display:flex; flex-wrap:wrap; gap:12px 40px; justify-content:space-between; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#5F5B54; border-bottom:1px solid #CFCABF; padding-bottom:16px;">
 <span data-reveal="">Wollongong, New South Wales</span>
 <span data-reveal="">Family, property, compensation, criminal, estates</span>
@@ -67,7 +87,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 <div data-reveal="" style="height:clamp(200px,30vh,400px); margin-top:clamp(18px,2.2vw,32px); min-width:0;"><img src="./img/office-interior.png" alt="The office at Market Street, Wollongong" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
 </section>
 
-<section id="firm" style="background:#12141A; color:#EDEAE3; padding:clamp(72px,10vw,160px) 0;">
+<section id="firm" style="scroll-margin-top:80px; background:#12141A; color:#EDEAE3; padding:clamp(72px,10vw,160px) 0;">
 <div style="max-width:1600px; margin:0 auto; padding:0 clamp(18px,3.4vw,52px);">
 <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px);">
 <div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#8D93A6; padding-top:12px;">01</div>
@@ -81,15 +101,15 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr)); gap:1px; background:#33363F; margin-top:clamp(48px,6vw,96px); border-top:1px solid #33363F; border-bottom:1px solid #33363F;">
-<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px clamp(24px,3vw,40px) 0; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">2002</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Principal admitted, Supreme Court of NSW</div></div>
-<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">50+</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Years of combined experience</div></div>
-<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">Fixed</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Fees quoted for property work</div></div>
-<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) 0 clamp(24px,3vw,40px) 20px; min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">4</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Solicitors, one of whom is yours</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) clamp(14px,1.4vw,20px); min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">2002</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Principal admitted, Supreme Court of NSW</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) clamp(14px,1.4vw,20px); min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">50+</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Years of combined experience</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) clamp(14px,1.4vw,20px); min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">Fixed</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Fees quoted for property work</div></div>
+<div data-reveal="" style="background:#12141A; padding:clamp(24px,3vw,40px) clamp(14px,1.4vw,20px); min-width:0;"><div style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(34px,4.4vw,62px); line-height:1;">4</div><div style="color:#8D93A6; font-size:14.5px; margin-top:10px;">Solicitors, one of whom is yours</div></div>
 </div>
 </div>
 </section>
 
-<section id="practice" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<section id="practice" style="scroll-margin-top:80px; max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
 <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); margin-bottom:clamp(32px,4vw,64px);">
 <div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">02</div>
 <div style="flex:1 1 min(100%,380px); min-width:0; display:flex; flex-wrap:wrap; gap:20px 56px; align-items:flex-end; justify-content:space-between;">
@@ -102,13 +122,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 <div data-practice="" style="flex:1.6 1 min(100%,420px); min-width:0; border-top:1px solid #12141A;">
 
 <div data-row="" style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">01</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Compensation</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">An injury at work, on the road, or in a public place. We deal with the insurer, the medical evidence and the claim itself. Most of this work runs on a no win, no fee basis.</p>
@@ -119,13 +139,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div data-row="" style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">02</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Property and conveyancing</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">Bring us the contract before you sign it. We read it properly, tell you what it means, and quote a fixed fee so the cost is settled at the start.</p>
@@ -136,13 +156,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div data-row="" style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">03</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Family</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">Separation is difficult enough without the law making it worse. We aim to settle matters early where that is possible, and we will tell you plainly when it is not.</p>
@@ -153,13 +173,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div data-row="" style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">04</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Criminal and traffic</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">Call before the first mention date if you can. We appear from bail applications through to hearing, and we will be straight with you about the likely outcome.</p>
@@ -170,13 +190,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div data-row="" style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">05</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Wills and estates</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">A will that is drafted properly saves your family an argument later. We also act for executors, and for people who have been left out of an estate.</p>
@@ -187,13 +207,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div data-row="" style="border-bottom:1px solid #12141A;">
-<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(12px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
+<button type="button" data-row-head="" aria-expanded="false" style="display:grid; width:100%; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr) 28px; gap:clamp(10px,2vw,32px); align-items:center; padding:clamp(20px,2.4vw,34px) 0; cursor:pointer; text-align:left; background:none; border:0; color:inherit; font:inherit; transition:padding-left 380ms cubic-bezier(0.22,1,0.36,1);">
 <span style="font-size:12px; color:#5F5B54;">06</span>
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(26px,4vw,54px); line-height:1.08; letter-spacing:-0.01em;">Disputes and litigation</span>
 <span data-row-mark="" style="font-size:20px; color:#2F3A5F; transition:transform 380ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
 <div data-row-body="" style="max-height:0; overflow:hidden; transition:max-height 460ms cubic-bezier(0.22,1,0.36,1);">
-<div style="display:grid; grid-template-columns:clamp(38px,5vw,80px) minmax(0,1fr); gap:clamp(12px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
+<div style="display:grid; grid-template-columns:clamp(26px,5vw,80px) minmax(0,1fr); gap:clamp(10px,2vw,32px); padding-bottom:clamp(22px,2.6vw,36px);">
 <span></span>
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr)); gap:clamp(18px,2.4vw,40px);">
 <p style="margin:0; color:#4A4C53; max-width:44ch;">Court is expensive and slow. We try negotiation and mediation first, and only run a matter to hearing when that is genuinely the better option.</p>
@@ -205,7 +225,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 
 </div>
 
-<div style="flex:1 1 min(100%,280px); min-width:0; position:sticky; top:104px;">
+<div data-sticky="" style="flex:1 1 min(100%,300px); min-width:0; position:sticky; top:88px;">
 <div style="position:relative; height:clamp(300px,42vw,560px); overflow:hidden;">
 <div data-shot="0" style="position:absolute; inset:0; opacity:1; transition:opacity 560ms ease;"><img src="./img/signing-documents.png" alt="Compensation claim documents being signed" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
 <div data-shot="1" style="position:absolute; inset:0; opacity:0; transition:opacity 560ms ease;"><img src="./img/house-exterior.png" alt="A house, for property and conveyancing matters" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
@@ -229,13 +249,13 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 </section>
 
-<section id="people" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<section id="people" style="scroll-margin-top:80px; max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
 <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); margin-bottom:clamp(28px,3.4vw,52px);">
 <div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">03</div>
 <h2 data-reveal="" style="flex:1 1 min(100%,380px); font-family:Newsreader,serif; font-weight:200; font-size:clamp(30px,5vw,72px); line-height:1.05; letter-spacing:-0.015em; margin:0; max-width:16ch;">Four solicitors. You will know which one is yours.</h2>
 </div>
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr)); gap:clamp(18px,2.2vw,30px); border-top:1px solid #12141A; padding-top:clamp(24px,3vw,40px);">
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(268px,100%),1fr)); gap:clamp(18px,2.2vw,30px); border-top:1px solid #12141A; padding-top:clamp(24px,3vw,40px);">
 <div data-reveal="" style="min-width:0;">
 <div style="height:clamp(280px,27vw,380px); overflow:hidden; min-width:0;"><img src="./img/portrait-nixon.png" alt="Nixon Hanna" loading="lazy" style="display:block; width:100%; height:100%; object-fit:cover;" /></div>
 <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:16px 0 4px;">
@@ -275,17 +295,17 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 </section>
 
-<section id="answers" style="max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
+<section id="answers" style="scroll-margin-top:80px; max-width:1600px; margin:0 auto; padding:clamp(72px,10vw,150px) clamp(18px,3.4vw,52px) 0;">
 <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px); align-items:flex-start;">
 <div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#5F5B54; padding-top:10px;">04</div>
-<div data-reveal="" style="flex:0.8 1 min(100%,280px); min-width:0; position:sticky; top:110px;">
+<div data-reveal="" data-sticky="" style="flex:0.8 1 min(100%,280px); min-width:0; position:sticky; top:96px;">
 <h2 style="font-family:Newsreader,serif; font-weight:200; font-size:clamp(28px,4.2vw,58px); line-height:1.06; letter-spacing:-0.015em; margin:0 0 16px; max-width:14ch;">Questions we get asked.</h2>
 <p style="margin:0; color:#4A4C53; max-width:30ch;">If yours is not here, ring us. Five minutes on the phone usually beats an hour of reading.</p>
 </div>
 <div data-faq="" data-reveal="" style="flex:1.5 1 min(100%,340px); min-width:0; border-top:1px solid #12141A;">
 
 <div style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit; min-height:56px;">
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">Do I need a lawyer or a conveyancer?</span>
 <span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
@@ -293,7 +313,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit; min-height:56px;">
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">It is my first house. Where do I start?</span>
 <span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
@@ -301,7 +321,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit; min-height:56px;">
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">What does no win, no fee actually mean?</span>
 <span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
@@ -309,7 +329,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div style="border-bottom:1px solid #CFCABF;">
-<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit; min-height:56px;">
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">Can a dispute be sorted without court?</span>
 <span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
@@ -317,7 +337,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 
 <div style="border-bottom:1px solid #12141A;">
-<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit;">
+<button type="button" data-faq-head="" aria-expanded="false" style="display:flex; width:100%; justify-content:space-between; gap:20px; padding:clamp(18px,2vw,26px) 0; cursor:pointer; align-items:baseline; text-align:left; background:none; border:0; color:inherit; font:inherit; min-height:56px;">
 <span style="font-family:Newsreader,serif; font-weight:300; font-size:clamp(19px,2vw,28px); line-height:1.25;">How do I speak to a lawyer here?</span>
 <span data-faq-mark="" style="font-size:19px; color:#2F3A5F; transition:transform 340ms cubic-bezier(0.22,1,0.36,1);">+</span>
 </button>
@@ -328,7 +348,7 @@ input::placeholder, textarea::placeholder { color:#8D93A6; }
 </div>
 </section>
 
-<section id="contact" style="background:#12141A; color:#EDEAE3; margin-top:clamp(72px,10vw,150px); padding:clamp(64px,9vw,140px) 0;">
+<section id="contact" style="scroll-margin-top:80px; background:#12141A; color:#EDEAE3; margin-top:clamp(72px,10vw,150px); padding:clamp(64px,9vw,140px) 0;">
 <div style="max-width:1600px; margin:0 auto; padding:0 clamp(18px,3.4vw,52px);">
 <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,72px);">
 <div style="flex:0 0 auto; width:clamp(60px,7vw,110px); font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:#8D93A6; padding-top:12px;">05</div>
@@ -430,6 +450,51 @@ class Component extends DCLogic {
     onScroll();
     this.cleanup.push(() => window.removeEventListener('scroll', handler));
 
+    // Breakpoints: mobile menu, sticky columns, condensed logo lockup
+    const navDesktop = document.querySelector('[data-nav-desktop]');
+    const navToggle = document.querySelector('[data-nav-toggle]');
+    const navPanel = document.querySelector('[data-nav-panel]');
+    const navLabel = document.querySelector('[data-nav-toggle-label]');
+    const localeTag = document.querySelector('[data-locale-tag]');
+    const navLinks = Array.from(document.querySelectorAll('[data-nav-link]'));
+
+    const setMenu = open => {
+      if (!navPanel || !navToggle) return;
+      navPanel.style.display = open ? 'block' : 'none';
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      if (navLabel) navLabel.textContent = open ? 'Close' : 'Menu';
+      this.menuOpen = open;
+    };
+
+    const applyBreakpoints = () => {
+      const w = window.innerWidth;
+      const compact = w < 900;          // header collapses to a menu
+      const stacked = w < 820;          // practice + questions columns stack
+      if (navDesktop) navDesktop.style.display = compact ? 'none' : 'flex';
+      if (navToggle) navToggle.style.display = compact ? 'inline-flex' : 'none';
+      if (!compact && this.menuOpen) setMenu(false);
+      if (localeTag) localeTag.style.display = w < 520 ? 'none' : 'block';
+      document.querySelectorAll('[data-sticky]').forEach(el => {
+        el.style.position = stacked ? 'static' : 'sticky';
+      });
+    };
+
+    if (navToggle) {
+      const onToggle = () => setMenu(!this.menuOpen);
+      navToggle.addEventListener('click', onToggle);
+      this.cleanup.push(() => navToggle.removeEventListener('click', onToggle));
+    }
+    navLinks.forEach(link => {
+      const close = () => setMenu(false);
+      link.addEventListener('click', close);
+      this.cleanup.push(() => link.removeEventListener('click', close));
+    });
+    const onKey = e => { if (e.key === 'Escape' && this.menuOpen) setMenu(false); };
+    window.addEventListener('keydown', onKey);
+    this.cleanup.push(() => window.removeEventListener('keydown', onKey));
+    applyBreakpoints();
+
     // Expanding practice rows
     const rows = Array.from(document.querySelectorAll('[data-row]'));
     // Queried per call: the preview column streams in after the rows
@@ -482,9 +547,14 @@ class Component extends DCLogic {
       if (openFaq) setFaq(openFaq, true);
     };
     let rTick;
-    const onResize = () => { clearTimeout(rTick); rTick = setTimeout(remeasure, 120); };
+    const onResize = () => { applyBreakpoints(); clearTimeout(rTick); rTick = setTimeout(remeasure, 120); };
     window.addEventListener('resize', onResize);
-    this.cleanup.push(() => { window.removeEventListener('resize', onResize); clearTimeout(rTick); });
+    window.addEventListener('orientationchange', onResize);
+    this.cleanup.push(() => {
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+      clearTimeout(rTick);
+    });
 
     // Questions
     const heads = Array.from(document.querySelectorAll('[data-faq-head]'));
